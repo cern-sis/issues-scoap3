@@ -12,5 +12,5 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.4.1
         with:
-          project-url: https://github.com/orgs/cern-sis/projects/4
+          project-url: https://github.com/orgs/cern-sis/projects/1
           github-token: ${{ secrets.CERN_SIS_BOT_PAT }}
